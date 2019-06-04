@@ -13,9 +13,12 @@ public class PairOfNames {
         while (true) {
             System.out.println("Podaj imie 1: ");
             n1 = in.nextLine();
+            if (n1.equals("-")) {
+                break;
+            }
             System.out.println("Podaj imie 2: ");
             n2 = in.nextLine();
-            if (n1.equals("-") || n2.equals("-")) {
+            if (n2.equals("-")) {
                 break;
             }
             mapaImion.put(n1, n2);
@@ -36,6 +39,10 @@ public class PairOfNames {
         else {
             System.out.println("nie ma szukanego imienia");
         }
+
+
+
+
 
     }
 }
