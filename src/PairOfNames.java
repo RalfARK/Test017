@@ -40,7 +40,7 @@ public class PairOfNames {
             System.out.println("nie ma szukanego imienia");
         }
 
-
+        //st.stream().forEach(System.out::println);
 
 
 
